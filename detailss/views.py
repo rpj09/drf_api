@@ -9,7 +9,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework import views
 from . import serializers
 from rest_framework_simplejwt.tokens import RefreshToken
-
+import rest_framework_simplejwt
 
 @api_view(['GET','POST'])
 @permission_classes([IsAuthenticated])

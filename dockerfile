@@ -1,6 +1,6 @@
 
 
-FROM python:3.10.6-slim-buster
+FROM python:3.9.6-slim-buster
 
 RUN pip3 install --upgrade pip
 
